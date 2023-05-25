@@ -7,3 +7,5 @@ Diz respeito a estruturas básicas como fundamentos básicos da linguagem, estru
 ### node
 Estruturas básicas para o estudo de Node. Importações, exportações. Uso e instalação do axios, dentre outras coisas. 
 
+## Projeto API Express
+Trata-se de um mini projeto executando as operações de CRUD utilizando JS e Express
