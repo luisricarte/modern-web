@@ -6,6 +6,7 @@ A pasta de Início diz respeito as primeiras seções do estudo. Revisando estru
 Diz respeito a estruturas básicas como fundamentos básicos da linguagem, estrutura de objetos, além de funções utilizadas sobre Arrays como: concat, filter, map, flatmap, reduce, entre outro.
 ### node
 Estruturas básicas para o estudo de Node. Importações, exportações. Uso e instalação do axios, dentre outras coisas. 
-
+### esnext
+Estudo sobre funções/recursos adicionados no ECMAScript
 ## Projeto API Express
 Trata-se de um mini projeto executando as operações de CRUD utilizando JS e Express.
