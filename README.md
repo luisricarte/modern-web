@@ -10,3 +10,7 @@ Estruturas básicas para o estudo de Node. Importações, exportações. Uso e i
 Estudo sobre funções/recursos adicionados no ECMAScript
 ## Projeto API Express
 Trata-se de um mini projeto executando as operações de CRUD utilizando JS e Express.
+
+
+## Conceito sobre Web
+- No curso também é abordado o estudo sobre a estrutura da web, protocolos HTTP, Introdução à Web, etc..
