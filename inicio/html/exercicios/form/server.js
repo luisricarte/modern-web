@@ -10,4 +10,9 @@ app.post('/usuarios', (req,resp) =>{
   resp.send('PARABÉNS')
 })
 
+app.put('/usuarios/:id', (req,resp) =>{
+  console.log(req.param.id)
+  console.log(req.body)
+  resp.send('PARABÉNS usuário alterado')
+})
 app.listen(5500)
