@@ -7,9 +7,9 @@ Repositório dedicado ao inicío do meu estudo sobre Web Moderno
 - A promessa pode ser Resolvida ou Rejeitada
 - A promessa Resolvida será atribuida ao .then() que é utilizado para tratar o retorno da Promise resolvida.
 - A promessa Rejeitada será atribuida ao .catch() onde será possível adicionar o tratamento de erros e=>e.message
-- Promise.all() => 
+- Promise.all() => O promisse all garante que o .then só será executado após todas as promessas terem sido executadas
 ## React Hooks
-###  useState
+### useState
 ### useContext
 ### useEffect
 ## Async Await
