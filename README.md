@@ -64,3 +64,9 @@ Mensagens de Erro. Datas. Contextualizar o backend para entender as característ
 ## Webpack
 ## JQuery
 ## Bootstrap
+## Banco de dados
+### Relacional
+### Não relacional
+### Conexão: Driver nativo
+### Conexão: Query Builders
+### Conexão: ORMs
