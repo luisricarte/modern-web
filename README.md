@@ -38,6 +38,24 @@ Repositório dedicado ao inicío do meu estudo sobre Web Moderno
 ### Spread
 ## Web Concepts
 ### HTTP Protocol
+- Métodos HTTP: GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS ...
+O método HTTP mostra o que a rota irá fazer dentro da aplicação. Serve para semanticamente definir pra que será utilizada aquela rota.
+
+- Corpo da requisição (Request Body)
+Geralmente é utilizado em requisições do tipo POST ou PUT que estão relacionadas a um formulário. Criação de algo.
+
+- Parâmetros de busca (Search Params / Query Params)
+São parâmetros que são utilizados diretamente na rota para realizar filtros ou buscas. Diretamente na URL. Parâmetros normalmente não obrigatórios
+`http://localhost:3000/usuarios?name=Duds`
+
+- Parâmetros de rota (Route Params)
+Geralmente utilizados em identificação de recursos específicos. Normalmente relacionado ao GET, PUT e DELETE. Quando são necessárias alterações em um 'usuário' específico, em um registro específico.
+`http://localhost:3000/usuario/5`
+
+- Cabeçalhos (Headers)
+Normalmente são utilizados para enviar o contexto da requisição.
+Mensagens de Erro. Datas. Contextualizar o backend para entender as características do usuário. Linguagem, local, horário.
+
 ### Client Side vs Server Side
 ### DNS
 ## DOM
