@@ -55,7 +55,11 @@ Geralmente utilizados em identificação de recursos específicos. Normalmente r
 - Cabeçalhos (Headers)
 Normalmente são utilizados para enviar o contexto da requisição.
 Mensagens de Erro. Datas. Contextualizar o backend para entender as características do usuário. Linguagem, local, horário.
-
+### Status Code
+- 20x => Sucesso
+- 30x => Redirecionamento
+- 40x => Client Error (erro em alguma infromação enviada por QUEM está fazendo a chamada da API)
+- 50x => Erro do Servidor. Erro que está acontecendo independente do que está sendo enviado para o servidor.
 ### Client Side vs Server Side
 ### DNS
 ## DOM
