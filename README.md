@@ -8,10 +8,19 @@ Repositório dedicado ao inicío do meu estudo sobre Web Moderno
 - A promessa Resolvida será atribuida ao .then() que é utilizado para tratar o retorno da Promise resolvida.
 - A promessa Rejeitada será atribuida ao .catch() onde será possível adicionar o tratamento de erros e=>e.message
 - Promise.all() => O promisse all garante que o .then só será executado após todas as promessas terem sido executadas
-## React Hooks
-### useState
-### useContext
-### useEffect
+## Hooks
+Só é possível adicionar os Hooks dentro de componentes funcionais. Não é possível utilizar dentro de componentes de classes.
+### useState (react)
+
+### useContext (react)
+### useEffect (react)
+### useRef (react)
+### useReducer (react)
+### useMemo (react)
+### useCallback (react)
+### useLayoutEffect (react)
+### useRouter (next/router)
+### useSession (next-auth)
 ## Async Await
 ## Funções
 ### Arrow Function
