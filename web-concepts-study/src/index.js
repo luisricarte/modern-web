@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { createBrowserRouter, RouterProvider, Navigate} from 'react-router-dom';
+import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 
-import {Home} from './routes/Home';
+import {UseState} from './routes/UseState';
 import { Contacts } from "./routes/Contacts";
 import {ErrorPage} from './routes/ErrorPage';
 import { ContactDetails } from './routes/ContactDetails';
@@ -15,8 +15,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage/>,
     children: [
       {
-        path: "/home",
-        element: <Home/>
+        path: "/useState",
+        element: <UseState/>
       },
       {
         path: "/contacts",
@@ -26,10 +26,11 @@ const router = createBrowserRouter([
         path: "/contacts/:id",
         element: <ContactDetails />
       },
-      {
+/*      {
         path: "oldcontact",
-        element: <Navigate to="/contact"/>
+        element: <Navigate to="/"/>
       }
+*/
     ]}
   
 ])

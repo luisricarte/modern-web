@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.linkCard {
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #c9c8c8;
+    padding: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 2px 4px 0px 0px rgba(0,0,0,0.5);
+    transition: 0.5s ease;
+    color: #888;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+
+.linkCard:hover {
+    transform: translateY(-6px) ;
+    background-color: #888888;
+    color: #fff;
+}

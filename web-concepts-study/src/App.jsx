@@ -1,14 +1,10 @@
-import Card from "./components/Card";
 import React from "react";
-import { Outlet } from "react-router-dom";
-import {NavBar} from './components/NavBar'
+import { HomePage } from "./pages/HomePage";
+
 const App = () => {
   return (
     <>
-      <p>NavBar</p>
-      <NavBar/>
-      <Outlet/>
-      <p>Footer</p>
+      <HomePage/>
     </>
   )
   
