@@ -1,6 +1,7 @@
 import { useState } from "react"
+import React from "react"
 
-export function UseState() {
+export const UseState = () => {
     const [count, setCount] = useState(0)
 
     const incrementa = () => {
