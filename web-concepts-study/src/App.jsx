@@ -1,13 +1,17 @@
-import UseStateStudy from "./concepts/hooks/useState";
-
-
-
+import Card from "./components/Card";
+import React from "react";
+import { Outlet } from "react-router-dom";
+import {NavBar} from './components/NavBar'
 const App = () => {
   return (
     <>
-      <UseStateStudy title="useState" description="useState description"/>
+      <p>NavBar</p>
+      <NavBar/>
+      <Outlet/>
+      <p>Footer</p>
     </>
-  );
+  )
+  
 }
 
 export default App;

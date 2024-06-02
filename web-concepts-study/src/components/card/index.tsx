@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { ButtonHTMLAttributes } from 'react'
 import styles from './styles.module.css'
 
-interface CardProps {
+type CardProps = ButtonHTMLAttributes<HTMLButtonElement> & {
     title: string,
     description?: string,
 }
 const Card = ({title,description}:CardProps) => {
     return (
-        <>
-            <span className={styles.title}>{title}</span>
-            <p className={styles.description}>{description}</p>
+        <> 
+            <button>
+                <span className={styles.title}>{title}</span>
+                <p className={styles.description}>{description}</p>
+            </button>
         </>
     )
 } 
