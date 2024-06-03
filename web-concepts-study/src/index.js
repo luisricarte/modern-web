@@ -15,7 +15,6 @@ import { UseMemo } from './routes/Hooks/UseMemo';
 import { UseCallBack } from './routes/Hooks/UseCallBack';
 import { UseLayoutEffect } from './routes/Hooks/UseLayoutEffect';
 const router = createBrowserRouter([
-
   {
     path: "/",
     element: <App/>,
@@ -50,7 +49,7 @@ const router = createBrowserRouter([
         element: <UseCallBack/>
       },
       {
-        path: "/useLayoutEfect",
+        path: "/useLayoutEffect",
         element: <UseLayoutEffect/>
       },
       {
@@ -67,7 +66,6 @@ const router = createBrowserRouter([
       }
 */
     ]}
-  
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
