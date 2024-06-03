@@ -16,7 +16,7 @@ export const UseState = () => {
     }
     return (
         <div>
-            <h1 className={{fontFamily:'Roboto', fontSize:'35px'}}> Use State </h1>
+            <h1 className={{fontFamily:'Roboto', fontSize:'35px'}}> UseState </h1>
             <li>
                 O UseState serve para armazenar os estados de componentes funcionais
             </li>
