@@ -9,7 +9,7 @@ export const NavBar = () => {
             }
             <Link to="/useState" className={styles.linkCardReady}>useState</Link>
             <Link to="/useEffect" className={styles.linkCardReady}>useEffect</Link>
-            <Link to="/useRef" className={styles.linkCard}>useRef</Link>
+            <Link to="/useRef" className={styles.linkCardReady}>useRef</Link>
             <Link to="/useReducer" className={styles.linkCard}>useReducer</Link>
             <Link to="/useContext" className={styles.linkCard}>useContext</Link>
             <Link to="/useMemo" className={styles.linkCard}>useMemo</Link>
