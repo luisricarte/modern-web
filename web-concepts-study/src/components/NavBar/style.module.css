@@ -44,3 +44,19 @@
     box-shadow: 2px 4px 0px 0px #0fa968;
     color: #bdbdbd;
 }
+
+.webHooks {
+    display: flex;
+    
+    margin-bottom: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: rgb(89, 4, 139);
+    font-size: 28px;
+    text-decoration: none;
+    color: #eeeeee;
+    font-weight: 600;
+    box-shadow: 4px 2px 2px 0px #888;
+}

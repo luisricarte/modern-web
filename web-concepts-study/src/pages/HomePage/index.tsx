@@ -5,8 +5,6 @@ import styles from './styles.module.css';
 export const HomePage = () => {
     return (
         <>
-        <p className={styles.navbar}>NavBar</p>
-        <NavBar/>
         <hr/>
         <Outlet/>
     
