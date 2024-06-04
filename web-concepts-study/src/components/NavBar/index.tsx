@@ -11,8 +11,8 @@ export const NavBar = () => {
             <Link to="/useEffect" className={styles.linkCardReady}>useEffect</Link>
             <Link to="/useRef" className={styles.linkCardReady}>useRef</Link>
             <Link to="/useReducer" className={styles.linkCardReady}>useReducer</Link>
-            <Link to="/useContext" className={styles.linkCard}>useContext</Link>
-            <Link to="/useMemo" className={styles.linkCard}>useMemo</Link>
+            <Link to="/useContext" className={styles.linkCardReady}>useContext</Link>
+            <Link to="/useMemo" className={styles.linkCardReady}>useMemo</Link>
             <Link to="/useCallback" className={styles.linkCard}>useCallback</Link>
             <Link to="/useLayoutEffect" className={styles.linkCard}>useLayoutEffect</Link>
         </div>
