@@ -47,8 +47,6 @@
 
 .webHooks {
     display: flex;
-    
-    margin-bottom: 1rem;
     padding: 1rem;
     justify-content: center;
     align-items: center;
@@ -59,4 +57,5 @@
     color: #eeeeee;
     font-weight: 600;
     box-shadow: 4px 2px 2px 0px #888;
+    margin: 1rem;
 }
