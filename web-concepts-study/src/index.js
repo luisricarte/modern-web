@@ -10,7 +10,7 @@ import { ContactDetails } from './routes/ContactDetails';
 import { UseEffect } from './routes/Hooks/UseEffect';
 import { UseRef } from './routes/Hooks/UseRef';
 import { UseReducer } from './routes/Hooks/UseReducer';
-import { UseContext } from './routes/Hooks/UseContext';
+import { UseContext } from './routes/Hooks/useContext/UseContext';
 import { UseMemo } from './routes/Hooks/UseMemo';
 import { UseCallBack } from './routes/Hooks/UseCallBack';
 import { UseLayoutEffect } from './routes/Hooks/UseLayoutEffect';
