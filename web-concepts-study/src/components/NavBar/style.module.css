@@ -24,3 +24,23 @@
     background-color: #888888;
     color: #fff;
 }
+
+.linkCardReady {
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #0fa968;
+    padding: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 2px 4px 0px 0px #32e5a0;
+    transition: 0.5s ease;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+
+.linkCardReady:hover {
+    transform: translateY(-4px) ;
+    background-color: #126945;
+    box-shadow: 2px 4px 0px 0px #0fa968;
+    color: #bdbdbd;
+}

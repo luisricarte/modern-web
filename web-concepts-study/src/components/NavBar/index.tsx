@@ -7,8 +7,8 @@ export const NavBar = () => {
         <div className={styles.container}>
             {//<Link to="/contacts" className={styles.linkCard}>Contatos</Link>
             }
-            <Link to="/useState" className={styles.linkCard}>useState</Link>
-            <Link to="/useEffect" className={styles.linkCard}>useEffect</Link>
+            <Link to="/useState" className={styles.linkCardReady}>useState</Link>
+            <Link to="/useEffect" className={styles.linkCardReady}>useEffect</Link>
             <Link to="/useRef" className={styles.linkCard}>useRef</Link>
             <Link to="/useReducer" className={styles.linkCard}>useReducer</Link>
             <Link to="/useContext" className={styles.linkCard}>useContext</Link>
