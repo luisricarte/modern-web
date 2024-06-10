@@ -14,7 +14,7 @@ import { UseCallBack } from './routes/Hooks/useCallback/UseCallBack';
 import { UseLayoutEffect } from './routes/Hooks/UseLayoutEffect';
 import { Hooks } from './routes/Hooks/Hooks';
 import { ProviderPattern } from './routes/ProviderPattern';
-import { AxiosPage } from './pages/Axios';
+import { AxiosPage } from './pages/Axios/server';
 
 const router = createBrowserRouter([
   {
