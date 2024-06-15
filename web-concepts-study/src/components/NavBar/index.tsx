@@ -16,7 +16,12 @@ export const NavBar = () => {
             <Link to="/useCallback" className={styles.linkCardReady}>useCallback</Link>
             <Link to="/useLayoutEffect" className={styles.linkCardReady}>useLayoutEffect</Link>
         </div>
-        <Link to="/providerPattern" className={styles.webHooks}>Provider Pattern</Link>
+        <span className={styles.webHooks}> Design Patterns</span>
+        <div className={styles.container}>
+            <Link to="/providerPattern" className={styles.linkCardReady}>Provider Pattern</Link>
+            <Link to="/adapterPattern" className={styles.linkCard}>Adapter Pattern</Link>
+        </div>
+    
         </>
     )
 }

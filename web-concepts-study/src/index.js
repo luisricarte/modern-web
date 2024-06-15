@@ -15,6 +15,7 @@ import { UseLayoutEffect } from './routes/Hooks/UseLayoutEffect';
 import { Hooks } from './routes/Hooks/Hooks';
 import { ProviderPattern } from './routes/ProviderPattern';
 import { AxiosPage } from './pages/Axios/server';
+import { AdapterPattern } from './routes/AdapterPattern';
 
 const router = createBrowserRouter([
   {
@@ -61,12 +62,17 @@ const router = createBrowserRouter([
       {
         path: "providerPattern",
         element: <ProviderPattern/>
+      },
+      {
+        path: '/adapterPattern',
+        element: <AdapterPattern/>
       }
     ]},
     {
       path:'/axios',
       element: <AxiosPage/>
-    }
+    },
+
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
