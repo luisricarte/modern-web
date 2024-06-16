@@ -17,6 +17,7 @@ import { ProviderPattern } from './routes/Pattern/ProviderPattern';
 import { AxiosPage } from './pages/Axios/server';
 import { AdapterPattern } from './routes/Pattern/AdapterPattern';
 import { DependencyInjection } from './routes/Pattern/DependencyInjection';
+import { Asynchronous } from './routes/AssincronousJavaScript/Asynchronous';
 
 const router = createBrowserRouter([
   {
@@ -75,6 +76,9 @@ const router = createBrowserRouter([
       {
         path: '/dependencyInjection',
         element: <DependencyInjection/>
+      },      {
+        path: '/asynchronous',
+        element: <Asynchronous/>
       }
     ]},
     {

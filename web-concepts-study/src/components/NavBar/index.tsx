@@ -22,7 +22,7 @@ export const NavBar = () => {
             <Link to="/adapterPattern" className={styles.linkCardReady}>Adapter Pattern</Link>
             <Link to="/dependencyInjection" className={styles.linkCard}>Dependency Injection</Link>
         </div>
-    
+        <Link to="/asynchronous" className={styles.webHooks}>Asynchronous JavaScript</Link>
         </>
     )
 }
