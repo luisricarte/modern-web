@@ -15,7 +15,7 @@ const getUserVideos = (email, callback) => {
     },2000)
 }
 
-const getVideosDetail = (video, callback) => {
+const getVideosDetails = (video, callback) => {
     setTimeout(()=>{
         callback({ title: 'Vídeo sobre JavaScript Asynchronous'})
     }, 2500)
@@ -25,7 +25,7 @@ const user = loginUser('duds@email.com', '123456',
     (user)=> {
         getUserVideos(user.email, (video)=>{
             console.log(video)
-            getVideosDetail(video[0], (videos)=>{
+            getVideosDetails(video[0], (videos)=>{
                 console.log(videos)
             })
         },
