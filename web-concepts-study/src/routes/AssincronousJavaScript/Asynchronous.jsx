@@ -56,9 +56,13 @@ export const Asynchronous = () => {
                 </ul>
                 <li><h2>Promises com Async/Await</h2></li>
                 <ul>
-                    <li>O async/await é utilizado para consumir promises. O que é mais comum é nós consumirmos promises e utilizarmos o async await para 'ajudar'.</li>
+                    <li>O <strong>async/await</strong> é utilizado para consumir promises. O que é mais comum é nós consumirmos promises e utilizarmos o async await para 'ajudar'.</li>
                     
-                    <li>O async/await força o javascript a aguardar a execução/finalização de uma promise para que em seguida ele prossiga no código.</li>
+                    <li>O <strong>async/await</strong> força o javascript a aguardar a execução/finalização de uma promise para que em seguida ele prossiga no código.
+                    Além disso, funciona como uma maneira de podermos evitar o uso do .then() repetidamente no código.</li>
+                    <li>
+                         
+                    </li>
                     <li>
                         Diferente do que acontece em uma promise que manipulamos o dado que vem do retorno anterior. Através do async/await é possível executar todas uma por uma.
                     </li>
