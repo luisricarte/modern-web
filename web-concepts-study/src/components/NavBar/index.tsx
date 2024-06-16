@@ -19,7 +19,8 @@ export const NavBar = () => {
         <span className={styles.webHooks}> Design Patterns</span>
         <div className={styles.container}>
             <Link to="/providerPattern" className={styles.linkCardReady}>Provider Pattern</Link>
-            <Link to="/adapterPattern" className={styles.linkCard}>Adapter Pattern</Link>
+            <Link to="/adapterPattern" className={styles.linkCardReady}>Adapter Pattern</Link>
+            <Link to="/dependencyInjection" className={styles.linkCard}>Dependency Injection</Link>
         </div>
     
         </>

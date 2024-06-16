@@ -13,9 +13,10 @@ import { UseMemo } from './routes/Hooks/UseMemo';
 import { UseCallBack } from './routes/Hooks/useCallback/UseCallBack';
 import { UseLayoutEffect } from './routes/Hooks/UseLayoutEffect';
 import { Hooks } from './routes/Hooks/Hooks';
-import { ProviderPattern } from './routes/ProviderPattern';
+import { ProviderPattern } from './routes/Pattern/ProviderPattern';
 import { AxiosPage } from './pages/Axios/server';
-import { AdapterPattern } from './routes/AdapterPattern';
+import { AdapterPattern } from './routes/Pattern/AdapterPattern';
+import { DependencyInjection } from './routes/Pattern/DependencyInjection';
 
 const router = createBrowserRouter([
   {
@@ -66,11 +67,20 @@ const router = createBrowserRouter([
       {
         path: '/adapterPattern',
         element: <AdapterPattern/>
+      },
+      {
+        path: '/dependencyInjection',
+        element: <DependencyInjection/>
+      },
+      {
+        path: '/dependencyInjection',
+        element: <DependencyInjection/>
       }
     ]},
     {
       path:'/axios',
       element: <AxiosPage/>
+      //subir backend no path modern-web/axios
     },
 
 ])
