@@ -40,13 +40,33 @@ export const Asynchronous = () => {
                         A estrutura dela seguem a seguinte maneira:
                     </p>
                     <ul>
-                        new Promise((resolve, reject)=>{`{}`})
+                        new Promise((resolve, reject)={`>{}`})
                         <br />
                         Promessas podem ser resolvidas ou rejeitadas. Quando elas são resolvidas elas executam o .then() e seguem com o tratamento ou execução de novas promises - requisições=
                         Quando elas são rejeitadas (reject) elas executam o .catch() recebe uma função como parâmetro para o tratamento de erros
                     </ul>
                 </ul>
-                <li>Promises com Async/Await</li>
+                <li><h2>Promises All</h2></li>
+                <ul>
+                    <p>
+                        Promise.all() é um método que interno das promises que permite que as promises sejam iniciadas e executadas ao mesmo tempo. Contudo, para que a promise seja retornada e promissiga todas as promises
+                        devem ter sido finalizadas. Ou seja, se temos uma promise com 1500ms e uma com 5000ms o promise All vai demorar 5000ms para ser retornado.
+
+                    </p>
+                </ul>
+                <li><h2>Promises com Async/Await</h2></li>
+                <ul>
+                    <li>O async/await é utilizado para consumir promises. O que é mais comum é nós consumirmos promises e utilizarmos o async await para 'ajudar'.</li>
+                    
+                    <li>O async/await força o javascript a aguardar a execução/finalização de uma promise para que em seguida ele prossiga no código.</li>
+                    <li>
+                        Diferente do que acontece em uma promise que manipulamos o dado que vem do retorno anterior. Através do async/await é possível executar todas uma por uma.
+                    </li>
+                    <li>
+                        Para executar a parte de <strong>tratamento de erros</strong> pode ser utilizado o que chamamos de try/catch. Se ele realizar tudo certo vai prosseguir no try, se não ele irá para o catch
+                    </li>
+                </ul>
+
             </ul>
 
 
