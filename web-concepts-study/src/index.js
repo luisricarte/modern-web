@@ -18,6 +18,7 @@ import { AxiosPage } from './pages/Axios/server';
 import { AdapterPattern } from './routes/Pattern/AdapterPattern';
 import { DependencyInjection } from './routes/Pattern/DependencyInjection';
 import { Asynchronous } from './routes/AssincronousJavaScript/Asynchronous';
+import { Nest } from './routes/NestLearning/Nest';
 
 const router = createBrowserRouter([
   {
@@ -76,10 +77,15 @@ const router = createBrowserRouter([
       {
         path: '/dependencyInjection',
         element: <DependencyInjection/>
-      },      {
+      },
+      {
         path: '/asynchronous',
         element: <Asynchronous/>
-      }
+      },
+      {
+        path: '/nestLearning',
+        element: <Nest/>
+      },
     ]},
     {
       path:'/axios',

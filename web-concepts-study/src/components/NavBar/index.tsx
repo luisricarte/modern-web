@@ -5,7 +5,7 @@ import styles from './style.module.css';
 export const NavBar = () => {
     return (
         <>
-        <Link to="/webHooks" className={styles.webHooks}>Hooks</Link>
+        <Link to="/webHooks" className={styles.bigTopicCompleted}>Hooks</Link>
         <div className={styles.container}>
             <Link to="/useState" className={styles.linkCardReady}>useState</Link>
             <Link to="/useEffect" className={styles.linkCardReady}>useEffect</Link>
@@ -16,13 +16,14 @@ export const NavBar = () => {
             <Link to="/useCallback" className={styles.linkCardReady}>useCallback</Link>
             <Link to="/useLayoutEffect" className={styles.linkCardReady}>useLayoutEffect</Link>
         </div>
-        <span className={styles.webHooks}> Design Patterns</span>
+        <span className={styles.bigTopicCompleted}> Design Patterns</span>
         <div className={styles.container}>
             <Link to="/providerPattern" className={styles.linkCardReady}>Provider Pattern</Link>
             <Link to="/adapterPattern" className={styles.linkCardReady}>Adapter Pattern</Link>
             <Link to="/dependencyInjection" className={styles.linkCard}>Dependency Injection</Link>
         </div>
-        <Link to="/asynchronous" className={styles.webHooks}>Asynchronous JavaScript</Link>
+        <Link to="/asynchronous" className={styles.bigTopicCompleted}>Asynchronous JavaScript</Link>
+        <Link to="/nestLearning" className={styles.bigTopicUncompleted}>Nest Learning</Link>
         </>
     )
 }
